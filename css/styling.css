@@ -186,7 +186,9 @@ select option:hover:after {
    padding-bottom: 4%;
 }
 
-
+.hidden{
+display: none;
+}
 
 
 
