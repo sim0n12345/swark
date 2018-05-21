@@ -112,6 +112,9 @@ body{
       background-image: url(../images/endelig.jpg);
 }
 
+    .hidden3 {
+        display: none;
+    }
 
 /* MENU / NAVIGATION STARTER (HVID) */
 ul {
@@ -158,7 +161,7 @@ li a:hover:after {
 
 .navigation {
     margin-right: 0.7%;
-    margin-top: -3.5%;
+    margin-top: 1%;
 }
 
 /* MENU / NAVIGATION SLUT (HVID) */
