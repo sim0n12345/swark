@@ -1,5 +1,96 @@
 
 
+@media only screen and (max-width: 768px){
+    
+        html {
+        padding: 0;
+        margin: 0;
+    }
+    
+    body {
+        margin: 0;
+        padding: 0;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: 100%, 100%;
+        font-family: 'Montserrat', sans-serif;
+        background-color: #ffffff;
+    }
+    
+    
+    .bodybg {
+    
+      background-image: url(../images/endelig.jpg);
+}
+    
+    
+     ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        margin-right: 6%;
+        text-align: center;
+         text-decoration: none;
+    }
+    li {
+        
+    float: right;
+        display: inline-block;
+        text-align: center;
+        padding: 7%;
+        padding-bottom: 20%;
+        text-decoration: none;
+        letter-spacing: 1px;
+    }
+    .lista {
+        display: block;
+        text-decoration: none;
+        color: #000000;
+        line-height: 19px;
+    }
+    
+    li a {
+    display: block;
+    text-decoration: none;
+    color: #000000;
+    
+    
+}
+    
+    .under{
+        
+        margin-top: 58%;
+       
+        
+    }
+    
+    .logo2 {
+    
+    margin-top: 65%;
+    margin-left: 15%;
+      
+}
+    
+    .hidden2{
+        
+        display: none;
+    }
+    
+    .dav2{
+        
+        margin-left: 27%;
+        margin-top: 15%
+    }
+    
+}
+
+    
+    
+
+
+
+
+@media only screen and (min-width: 992px){
 
 html{
     padding: 0;
@@ -86,11 +177,12 @@ li a:hover:after {
 
 /* PLACERING AF DAV LOGO */
 .dav {
-    
+    text-align: center;
     position: absolute;
     bottom: 0;
-    float: right;
     margin-bottom: 2%;
     margin-left: 5.5%
 }
 /* PLACERING AF DAV LOGO SLUT */
+    
+}
