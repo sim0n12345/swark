@@ -15,12 +15,18 @@
 
     <div class="logo">
         <a href="index.html">
-            <img src="images/logo_sort.png" alt="sw logo" width="20%">
+            <img class="logoresponsive" src="images/logo_sort.png" alt="sw logo" width="20%">
         </a>
     </div>
+    
+    <div class="container" onclick="myFunction(this)">
+  <div class="bar1"></div>
+  <div class="bar2"></div>
+  <div class="bar3"></div>
+</div>
 
 
-    <div class="navigation">
+    <div class=" hidden4 navigation">
         <ul class="ulorg">
             <li class="lista liorg"><a class="lista" href="kontakt.html">Kontakt</a></li>
             <li class="lista liorg"><a class="lista" href="profil.html">Profil</a></li>
@@ -34,7 +40,7 @@
 
     <div class="divomarg">
 
-<div class="ulpos">
+<div class=" hidden4 ulpos">
         <ul>
             <li class="lista selectpos active"><a class="lista" href="projekter.html">Alle</a></li>
             <li class="lista selectpos"><a class="lista" href="boliger.html">Boliger</a></li>
@@ -51,50 +57,50 @@
     <div class="hidden">   
     <div class="gallery">
         <a>
-            <img src="images/hus44.jpg" alt="hus" width="22vw" height="30vh">
+            <img class="projektsize" src="images/hus44.jpg" alt="hus" width="22vw" height="30vh">
         </a>
-        <div class="desc"><h2>Projekt - XXXX</h2></div>
+        <div class="prospacing desc"><h2>Projekt - XXXX</h2></div>
     </div>
     
 
     <div class="gallery">
         <a>
-            <img src="images/hu44.jpg" alt="hus" width="22vw" height="30vh">
+            <img class="projektsize" src="images/hu44.jpg" alt="hus" width="22vw" height="30vh">
         </a>
-        <div class="desc"><h2>Projekt - XXXX</h2></div>
+        <div class="prospacing desc"><h2>Projekt - XXXX</h2></div>
     </div>
     
 
     <div class="gallery">
         <a>
-            <img src="images/hu44.jpg" alt="hus" width="22vw" height="30vh">
+            <img class="projektsize" src="images/hu44.jpg" alt="hus" width="22vw" height="30vh">
         </a>
-        <div class="desc"><h2>Projekt - XXXX</h2></div>
+        <div class="prospacing desc"><h2>Projekt - XXXX</h2></div>
     </div>
     
    
 
     <div class="gallery">
         <a >
-            <img src="images/hus44.jpg" alt="hus" width="22vw" height="30vh">
+            <img class="projektsize" src="images/hus44.jpg" alt="hus" width="22vw" height="30vh">
         </a>
-        <div class="desc"><h2>Projekt - XXXX</h2></div>
+        <div class="prospacing desc"><h2>Projekt - XXXX</h2></div>
     </div>
 
     
        <div class="gallery">
         <a >
-            <img src="images/hu44.jpg" alt="hus" width="22vw" height="30vh">
+            <img class="projektsize" src="images/hu44.jpg" alt="hus" width="22vw" height="30vh">
         </a>
-        <div class="desc"><h2>Projekt - XXXX</h2></div>
+        <div class="prospacing desc"><h2>Projekt - XXXX</h2></div>
     </div>
     
 
     <div class="gallery">
         <a target="_blank" href="img_mountains.jpg">
-            <img src="images/hu44.jpg" alt="hus" width="22vw" height="30vh">
+            <img class="projektsize" src="images/hu44.jpg" alt="hus" width="22vw" height="30vh">
         </a>
-        <div class="desc"><h2>Projekt - XXXX</h2></div>
+        <div class="prospacing desc"><h2>Projekt - XXXX</h2></div>
     </div>
     </div>
     </div>
@@ -103,6 +109,10 @@
   $(document).ready(function() {
             $('.hidden').fadeIn(2000).removeClass('hidden');
         });
+               
+               function myFunction(x) {
+    x.classList.toggle("change");
+}
 </script>
      
    </body>
