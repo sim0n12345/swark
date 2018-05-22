@@ -21,7 +21,8 @@
         margin: 0;
         padding: 0;
         margin-right: 0%;
-        margin-left: 12%;
+        margin-left:17%;
+        
     }
     li {
         float: left;
@@ -29,12 +30,19 @@
         margin-right: 2%;
         text-decoration: none;
         letter-spacing: 1px;
+        
     }
     .lista {
         display: block;
         text-decoration: none;
         color: #000000;
         line-height: 19px;
+    }
+    
+    
+    a {
+        
+        font-size: 13px;
     }
     
     .hidden4 {
