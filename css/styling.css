@@ -20,11 +20,13 @@
         list-style-type: none;
         margin: 0;
         padding: 0;
-        margin-right: 1%;
+        margin-right: 0%;
+        margin-left: 12%;
     }
     li {
-        float: right;
+        float: left;
         padding: 1.4%;
+        margin-right: 2%;
         text-decoration: none;
         letter-spacing: 1px;
     }
@@ -96,7 +98,25 @@
     -webkit-transform: rotate(45deg) translate(-6px, -6px);
     transform: rotate(45deg) translate(-4px, -2px);
 }
+    
+    h1 {
+        
+        font-size: 15px;
+        text-align: center;
+        margin-top: 7%;
+        margin-bottom: 7%;
+    }  
+    
+        ul li.active>a {
+        color: #000000;
+        border-bottom: solid 2px #000000;
+        margin-top: 0px;
+        padding: 0;
+    }
+    
 }
+   
+
 
 
 
@@ -226,6 +246,11 @@
         padding-bottom: 4%;
     }
     .hidden {
+        display: none;
+    }
+    
+    .hidden5 {
+        
         display: none;
     }
 }
