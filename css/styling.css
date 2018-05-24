@@ -381,7 +381,7 @@
 }
 
 #kontakt {
-	font-size: 15px;
+	font-size: 20px;
 	margin-left: 6%;
 	
 }
@@ -444,24 +444,16 @@
 }
 
 #map {
-	margin-left: 45%;
-    display: inline-block;
 	position: absolute;
-   top: 50%;
-	bottom:10%; 
+	top: 0;
+	bottom: 50%; 
 	width:50%;
+	margin-left: 45%;
+	align-items: flex-start;
 }
-
-.map {
 	
-	margin-top: 20%;
-
-}
-
+	
 .blaa {
 	color: #91ACC3;
 }
 	
-	
-
-}
