@@ -308,7 +308,7 @@
    background-color: #454545;
    color: white;
    text-align: center;
-      margin-bottom: -12.7%;
+      margin-bottom: -50.7%;
      
      
 }
@@ -425,6 +425,7 @@
         text-align: center;
     }
    
+<<<<<<< HEAD
        .middle5 {
         
         transition: .5s ease;
@@ -492,5 +493,105 @@
         
         opacity: 1;
     }
+=======
+
+/* KONTAKTSIDE - grid */
+
+#kontakt {
+	font-size: 15px;
+	margin-left: 5%;
+	
+}
+
+.grid {
+	margin-top: 10%;
+	bottom: 0;
+}
+
+#kontakt {
+	font-size: 15px;
+	margin-left: 6%;
+	
+}
+
+.grid-container {
+	grid-gap: 5%;
+  display: grid;
+  grid-column-gap: 50px;
+  grid-row-gap: 50px;
+  grid-template-columns: auto auto auto;
+  justify-content: center;
+	padding: 5px;
+	
+}
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  font-size: 30px;
+  text-align: center;
+	margin-left: 2%;
+	margin-right: 0%;
+	padding: 0;
+	
+}
+
+.navn {
+	font-size: 15px;
+	text-align: left;
+	margin-left: 15%;
+
+}
+
+.stilling {
+	font-size: 12px;
+	text-align: left;
+	margin-left: 15%;
+}
+
+.mail {
+	font-size: 12px;
+	text-align: left;
+	margin-left: 15%;
+}
+
+.tlf {
+	font-size: 12px;
+	text-align: left;
+	margin-left: 15%;
+}
+
+.findos {
+	margin-top: 10%;
+}
+
+
+#find {
+	margin-left: 6%;
+	float: left;
+	line-height: 20pt;
+	font-size: 15px;
+}
+
+#map {
+	margin-left: 45%;
+    display: inline-block;
+	position: absolute;
+   top: 50%;
+	bottom:10%; 
+	width:50%;
+}
+
+.map {
+	
+	margin-top: 20%;
+
+}
+
+.blaa {
+	color: #91ACC3;
+}
+	
+	
+
+>>>>>>> aecbc4e486099cafe4b18bd4a9bfe3d9ce992205
 }
 
