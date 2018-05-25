@@ -443,15 +443,21 @@
 	font-size: 15px;
 }
 
-#map {
+.map {
 	position: absolute;
-	top: 0;
-	bottom: 50%; 
-	width:50%;
-	margin-left: 45%;
-}
+	top: 100px;
+	bottom: 200px;
+	width: 50%;
 	
+	}
 	
+	.flex-container {
+		display: flex;
+  		flex-wrap: wrap;
+		margin-top: 20%;
+		margin-left: 45%;	
+	}
+		
 .blaa {
 	color: #91ACC3;
 }
