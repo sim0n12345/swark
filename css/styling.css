@@ -284,7 +284,7 @@
     
     .profiltek {
         
-        line-height: 26px;
+        line-height: 35px;
         font-size: 14px;
         letter-spacing: 1px;
     }
@@ -365,135 +365,7 @@
         margin-top: 5%;
     }
     
-    /* SPECIFIK PROJKEKT KODE */
-    
-    
-    .image {
-        
-        z-index: 1;
-        transition: .5 ease;
-        backface-visibility: hidden;
-        opacity: 1;
-    }
-    
-    .middle {
-      
-        transition: .5s ease;
-        opacity: 0;
-        position: absolute;
-        top: 49% ;
-        left: 22.6%;
-        transform: translate(-50%, -50%);
-        -ms-transform: translate(-50%, -50%);
-        text-align: center;
-    }
-    
-     .middle2 {
-          
-           transition: .5s ease;
-        opacity: 0;
-        position: absolute;
-        top: 49% ;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        -ms-transform: translate(-50%, -50%);
-        text-align: center;
-    }
-    
-    .middle3 {
-          
-           transition: .5s ease;
-        opacity: 0;
-        position: absolute;
-        top: 49% ;
-        left: 77%;
-        transform: translate(-50%, -50%);
-        -ms-transform: translate(-50%, -50%);
-        text-align: center;
-    }
-    
-    
-    .middle4 {
-          
-           transition: .5s ease;
-        opacity: 0;
-        position: absolute;
-        bottom: 5% ;
-        left: 22.6%;
-        transform: translate(-50%, -50%);
-        -ms-transform: translate(-50%, -50%);
-        text-align: center;
-    }
-    
-    .middle5 {
-          
-           transition: .5s ease;
-        opacity: 0;
-        position: absolute;
-        bottom: 5% ;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        -ms-transform: translate(-50%, -50%);
-        text-align: center;
-    }
-    
-     .middle6 {
-          
-           transition: .5s ease;
-        opacity: 0;
-        position: absolute;
-        bottom: 5% ;
-        left: 77%;
-        transform: translate(-50%, -50%);
-        -ms-transform: translate(-50%, -50%);
-        text-align: center;
-    }
-    
-    
-    .text {
-        background-color: none;
-        color: black;
-        font-size: 23px;
-        padding: 16px 32px;
-        
-    }
-    
-    .gallery:hover .image{
-        
-        opacity: 0.3;
-        
-    }
-    
-    .gallery:hover .middle {
-        
-        opacity: 1;
-    }
-    
-    .gallery:hover .middle2 {
-        
-        opacity: 1;
-    }
    
-    .gallery:hover .middle3 {
-        
-        opacity: 1;
-    }
-    
-     .gallery:hover .middle4 {
-        
-        opacity: 1;
-    }
-    
-    .gallery:hover .middle5 {
-        
-        opacity: 1;
-    }
-    
-    .gallery:hover .middle6 {
-        
-        opacity: 1;
-    }
-=======
 
 /* KONTAKTSIDE - grid */
 
@@ -509,7 +381,7 @@
 }
 
 #kontakt {
-	font-size: 15px;
+	font-size: 20px;
 	margin-left: 6%;
 	
 }
@@ -571,27 +443,22 @@
 	font-size: 15px;
 }
 
-#map {
-	margin-left: 45%;
-    display: inline-block;
-	position: absolute;
-   top: 50%;
-	bottom:10%; 
-	width:50%;
-}
-
 .map {
+	position: absolute;
+	top: 100px;
+	bottom: 200px;
+	width: 50%;
 	
-	margin-top: 20%;
-
-}
-
+	}
+	
+	.flex-container {
+		display: flex;
+  		flex-wrap: wrap;
+		margin-top: 20%;
+		margin-left: 45%;	
+	}
+		
 .blaa {
 	color: #91ACC3;
 }
 	
-	
-
->>>>>>> aecbc4e486099cafe4b18bd4a9bfe3d9ce992205
-}
-
