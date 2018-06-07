@@ -4,8 +4,11 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
     <title>Smærup // Wessman</title>
     <link rel="stylesheet" type="text/css" href="css/styling.css">
+    <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.45.0/mapbox-gl.js'></script>
+    <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.45.0/mapbox-gl.css' rel='stylesheet' />
     <link rel="icon" href="images/tablogo2.png">
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 
@@ -13,6 +16,7 @@
 
 <body>
 
+	<header>
     <div class="logo">
         <a href="index.html">
         <img src="images/logo_sort.png" alt="sw logo" width="20%">
@@ -27,8 +31,84 @@
             <li class="lista liorg" ><a class="lista" href="projekter.html">Projekter</a></li>
         </ul>
     </div>
-    
-    
+    </header>
+		
+	<!--- w3school -->
+<div class="grid">
+   <h1 id="kontakt"><b>Medarbejdere //</b></h1>
+<div class="grid-container">
+  <div class="grid-item">
+	<img class="portraet" src="images/John.jpg" alt="John">
+	  <div class="navn">John Wessman</div>
+	<div class="stilling">Indehaver / Arkitekt /</div>
+	  <div class="mail">Email. <a class="blaa" href="mailto:mail@swas.dk">mail@swas.dk</a></div>
+<div class="tlf">Tlf.nr. +45 00000000</div>
+	</div>
+  <div class="grid-item">
+	<img class="portraet" src="images/medarbejder2.jpg" alt="John">
+	  <div class="navn">Per Foldager</div>
+	<div class="stilling">Bygningskonstruktør /</div>
+	  <div class="mail">Email. <a class="blaa" href="mailto:mail@swas.dk">mail@swas.dk</a></div>
+<div class="tlf">Tlf.nr. +45 00000000</div>
+	</div>
+  <div class="grid-item">
+	<img class="portraet" src="images/medarbejder3.jpg" alt="John">   
+	  <div class="navn">John Bach Mikkelsen</div>
+	<div class="stilling">Bygningskonstruktør /</div>
+	  <div class="mail">Email. <a class="blaa" href="mailto:mail@swas.dk">mail@swas.dk</a></div>
+<div class="tlf">Tlf.nr. +45 00000000</div>
+	</div>
+  <div class="grid-item">
+	<img class="portraet"src="images/medarbejder4.jpg" alt="John">  
+	  <div class="navn">Anne Brit Tvedegaard</div>
+	<div class="stilling">Bygningstekniker /</div>
+	  <div class="mail">Email. <a class="blaa" href="mailto:mail@swas.dk">mail@swas.dk</a></div>
+<div class="tlf">Tlf.nr. +45 00000000</div>
+	</div>
+  <div class="grid-item">
+	<img class="portraet" src="images/John.jpg" alt="John">
+	<div class="navn">Jesper Andersen</div>
+	<div class="stilling">Bygningskonstruktør /</div>
+	  <div class="mail">Email. <a class="blaa" href="mailto:mail@swas.dk">mail@swas.dk</a></div>
+<div class="tlf">Tlf.nr. +45 00000000</div>
+	</div>
+	</div>
+	</div>
+
+	<div class="findos">
+	<h1 id="kontakt"><b>Find os //</b></h1>
+	<p id="find">Smærup & Wessman A/S<br>
+Reberbanevej 10<br>
+8900 Randers<br>
+Tlf. +45 87118700<br>
+Email: <a class="blaa" href="mailto:mail@swas.dk">mail@swas.dk</a><br></p>
+	</div>
+
+	
+	<div class="flex-container">
+		<div id='map'></div>
+	</div>
+
+		<script>
+mapboxgl.accessToken = 'pk.eyJ1IjoibWFsb3VqZXBwc29uIiwiYSI6ImNqaGhmajVuNzA4ZG8zYmxjd2g5OGtnbjAifQ.ndkTBPOf5vfYgf5y3gxZQw';
+var map = new mapboxgl.Map({
+    container: 'map', // container id
+    style: 'mapbox://styles/maloujeppson/cjhhgd3kf005i2smpakjteyby', 
+    center: [10.033830, 56.466075], // starting position
+    zoom: 16 // starting zoom
+});
+	
+	// Add zoom and rotation controls to the map.
+map.addControl(new mapboxgl.NavigationControl());
+	
+			var marker = new mapboxgl.Marker()
+				.setLngLat([10.033830,56.4660750])
+				.addTo(map);
+		
+</script>
+	
+	
+	
     <footer>
     <div class="footis">
   <div class="footer"> 
@@ -59,6 +139,5 @@ Lør / søn                   Lukket
    </div>
     </div>
 </footer> 
-
        </body>
 </html>

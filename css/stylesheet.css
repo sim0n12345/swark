@@ -86,7 +86,7 @@
 
     
     
-
+@media only screen and (min-width: 769px, max-width:991px){
 
 
 
@@ -187,8 +187,5 @@ li a:hover:after {
     margin-left: 5.5%
 }
 /* PLACERING AF DAV LOGO SLUT */
-    
- 
-    
     
 }
