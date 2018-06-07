@@ -397,14 +397,17 @@
 	
 }
 .grid-item {
-  background-color: rgba(255, 255, 255, 0.8);
   font-size: 30px;
   text-align: center;
-	margin-left: 2%;
-	margin-right: 0%;
+	margin-left: 5%;
+	margin-right: 10%;
 	padding: 0;
 	
 }
+	
+	.portraet {
+		width: 80%;
+	}
 
 .navn {
 	font-size: 15px;
@@ -443,19 +446,13 @@
 	font-size: 15px;
 }
 
-.map {
+#map {
 	position: absolute;
 	top: 100px;
 	bottom: 200px;
 	width: 50%;
+	margin-left: 45%;
 	
-	}
-	
-	.flex-container {
-		display: flex;
-  		flex-wrap: wrap;
-		margin-top: 20%;
-		margin-left: 45%;	
 	}
 		
 .blaa {
