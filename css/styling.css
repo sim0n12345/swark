@@ -279,17 +279,17 @@
     .textplace
     {
         float: right;
-        margin-right: 1%;
+        margin-right: -4%;
         text-align: justify;
         width: 25%;
-        margin-top: 13%;
+        margin-top: 14.5%;
         
     }
     
     .profiltek {
         
-        line-height: 35px;
-        font-size: 14px;
+        line-height: 25px;
+        font-size: 13px;
         letter-spacing: 1px;
     }
     
@@ -303,19 +303,9 @@
 		position: absolute;
     }
 	
-  .footer {
-   position: absolute;
-   left: 0;
-   bottom: 0;
-   width: 100%;
-    height: 25%;  
-   background-color: #454545;
-   color: white;
-   text-align: center;
-      margin-bottom: -50.7%;
+  
      
-     
-}
+
     
     .copy{
         
@@ -439,7 +429,8 @@
 }
 
 .findos {
-	margin-top: 10%;
+	margin-top: 7.6%;
+    margin-left: 17%
 }
 
 
@@ -454,12 +445,36 @@
 	position: absolute;
 	top: 100px;
 	bottom: 200px;
-	width: 50%;
-	margin-left: 45%;
+	width: 40%;
+    height: 50%;
+	float: right;
+    margin-left: 40%;
+    margin-top: 70%;
+    margin-bottom: 15%
 	
 	}
 		
 .blaa {
 	color: #91ACC3;
 }
-	
+
+    .vidomarg {
+        
+        margin-left: 16%;
+
+    }     
+    
+    .mapmarg {
+        
+   
+    }
+    
+    .footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: black;
+  text-align: center;
+}
