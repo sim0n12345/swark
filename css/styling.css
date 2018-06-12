@@ -510,12 +510,19 @@
 
 .sociallogo {
     margin-left: 3%;
+    margin-top: 1%;
 }
     
     .allign{
         margin-right: 1%;
         margin-top: 1%;
 
+    }
+    
+    .bottomright{
+        margin-top: 7%;
+     margin-left: 60%;
+       
     }
     
 }
