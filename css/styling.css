@@ -477,6 +477,14 @@
     font-family: 'Montserrat', sans-serif;
     margin-bottom: -30%    
 }
+    .footer2 {
+    display: inline-block;
+    background-color: gray;
+    height: 200px;
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: -20%    
+}
 
 .column1,
 .column2,
@@ -501,8 +509,14 @@
 }
 
 .sociallogo {
-    margin-left: 20px;
+    margin-left: 3%;
 }
+    
+    .allign{
+        margin-right: 1%;
+        margin-top: 1%;
+
+    }
     
 }
 
